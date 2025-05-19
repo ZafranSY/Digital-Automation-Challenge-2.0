@@ -1,10 +1,10 @@
 "use client"
 
 import { useState } from "react"
-import { LeaveApplicationForm } from "@/component/leave-application-form"
-import { LeaveApplicationTable } from "@/component/leave-application-table"
-import { LeaveApplicationSearch } from "@/component/leave-application-search"
-import { Toaster } from "@/component/ui/toaster"
+import { LeaveApplicationForm } from "./leave-application-form"
+import { LeaveApplicationTable } from "./leave-application-table"
+import { LeaveApplicationSearch } from "./leave-application-search"
+import { Toaster } from "@/components/ui/toaster"
 import { useToast } from "@/hooks/use-toast"
 import {
   SidebarProvider,
