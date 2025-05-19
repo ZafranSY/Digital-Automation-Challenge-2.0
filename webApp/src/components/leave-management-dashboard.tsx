@@ -4,8 +4,8 @@ import { useState } from "react"
 import { LeaveApplicationForm } from "./leave-application-form"
 import { LeaveApplicationTable } from "./leave-application-table"
 import { LeaveApplicationSearch } from "./leave-application-search"
-import { Toaster } from "@/components/ui/toaster"
-import { useToast } from "@/hooks/use-toast"
+import { Toaster } from "./ui/toaster"
+import { useToast } from "../hooks/use-toast"
 import {
   SidebarProvider,
   Sidebar,
